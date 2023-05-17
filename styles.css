@@ -1,0 +1,548 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid orange; */
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.sadP{
+    margin-top: 25px;
+}
+
+
+.wonder {
+    text-align: center;
+
+}
+
+.right-column {
+    width: 45%;
+}
+
+.left-column {
+    width: 45%;
+
+}
+
+.left-column>img {
+    margin-top: 90px;
+}
+
+
+.copyrights {
+    color: #555555;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(11, 9, 9, 0.679);
+
+}
+
+ul {
+    list-style: none;
+}
+
+.site-menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.site-menu>li>a {
+    color: #D4D4D4;
+    text-decoration: none;
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 17px;
+    padding: 20px 30px;
+    transition: 0.2s ease;
+}
+
+.site-menu>li>a:hover {
+    background-color: #02000029;
+}
+
+.site-menu>li {
+    /* width: 250px; */
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 100px;
+    padding-top: 120px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 51px;
+
+}
+
+h3 {
+    margin-top: px;
+    font-family: 'Sylfaen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #D4D4D4;
+}
+
+.about-description {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    color: #D4D4D4;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.right-column {
+    width: 45%;
+}
+
+.left-column {
+    width: 45%;
+
+}
+
+.abc {
+    color: white;
+    font-family: 'Verdana';
+    font-size: 15px;
+}
+
+.facts {
+    padding-bottom: 50px;
+
+}
+
+
+.sh2 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/шапкаПирамиды.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh3 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.152) 0%, rgb(11, 9, 9) 100% 100%), url(images/висячие\ сады\ шапка\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sh4 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/ШапкаЗевса2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sh5 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/Храм.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sh6 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/Мавзолей\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.sh7 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/КОЛОСС\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh8 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/ал\ маяк\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sh9 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/Тадж-Махал.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh10 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/шапка\ стена.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh11 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgb(11, 9, 9) 100% 100%), url(images/KOLIZEY\ Head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sh12 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgb(11, 9, 9) 100% 100%), url(images/Мачу\ пикчу.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sh13 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgb(11, 9, 9) 100% 100%), url(images/Петра\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sh14 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgb(11, 9, 9) 100% 100%), url(images/Chichen\ itsa\ head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sh15 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/Статуя\ шапка\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh16 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(11, 9, 9) 100% 100%), url(images/Байкал\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sh17 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/мамев\ курган\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh18 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/петергоф\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh19 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/Эльбрус\ фото\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh20 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/собор\ шапка.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh21 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/Маньпупунёр\ 3\ фото.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sh22 {
+    background: rgb(11, 9, 9);
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(11, 9, 9) 100% 100%), url(images/долина\ шапка.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+.lead {
+    margin-top: 60px;
+
+}
+
+.lead>b {
+    font-family: 'Courier New';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 27px;
+
+}
+
+.site-footer {
+    background-color: rgb(11, 9, 9);
+    padding-top: 30px;
+}
+
+.company-title {
+    color: #D4D4D4;
+    margin-left: 15px;
+}
+
+.facts-list>li {
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 15px;
+    font-family: 'Verdana';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.facts-list>li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 6px;
+    background-color: white;
+}
+
+.about-us {
+    position: relative;
+}
+
+.facts-list {
+    margin-top: 27px;
+}
+
+.lead {
+    margin-bottom: 40px;
+}
+
+.icon-mail {
+    content: "";
+    position: relative;
+    display: block;
+    background-image: url("../img/mail-icon\ 1.png");
+    width: 17px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right-column>img {
+    width: 440px;
+    height: 347px;
+    margin-top: 60px;
+}
+
+.right-column>p {
+    margin-bottom: 23px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    color: white;
+}
+
+main {
+    background-color: rgb(11, 9, 9);
+}
+
+.heops {
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px #555;
+}
+
+
+
+
+
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+    width: 26px;
+    height: 26px;
+
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+
+    background-color: rgb(255, 255, 255);
+
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+
+    width: 300px;
+    height: 100%;
+
+    margin: 0;
+    padding: 80px 0;
+
+    list-style: none;
+
+    background-color: #151719;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
+    transition-duration: .25s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: rgba(128, 128, 128, 0.201);
+}
