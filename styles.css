@@ -12,6 +12,11 @@
 
 }
 
+.main{
+    height: 100%;
+    background-color: rgb(11, 9, 9);
+}
+
 .sadP{
     margin-top: 25px;
 }
@@ -338,13 +343,170 @@ h3 {
     background-position: center;
 }
 
+.mh{
+    background: rgb(11, 9, 9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 1px;
 
+}
 
+.mh1{
+    text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+    color: #fff;
+    text-transform: uppercase;
+    /* text-shadow: 0 0 0.15em #878b8d; */
+    user-select: none;
+    white-space: nowrap;
+    filter: white(0.007em);
+    animation: shake 2.5s linear forwards;
+}
 
+h2{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(181, 166, 166);
+    font-family: 'Aboreto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 51px; 
+}
 
+.text{
+    color: white;
+    font-family: 'Verdana';
+    font-size: 14px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.card {
+    width: 300px;
+    min-height: 300px;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    transition: 0.2s;
+    position: relative;
+  }
+  
+  .card:hover {
+    box-shadow: 4px 8px 16px rgba(146, 139, 137, 0.215);
+  }
+  
+  .card__top {
+    flex: 0 0 220px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Контейнер для картинки */
+  .card__image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Встраиваем картинку в контейнер card__image */
+    transition: 0.2s;
+  }
+  
+  /* При наведении - увеличиваем картинку */
+  .card__image:hover > img {
+    transform: scale(1.1);
+  }
+  
 
+  .card__bottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto; /* Занимаем всю оставшуюся высоту карточки */
+    padding: 10px;
+  }
+  
+  .card__prices {
+    display: flex;
+    margin-bottom: 10px;
+    flex: 0 0 50%; /* Размещаем цены равномерно в две колонки */
+  }
+  
+  .card__price::after {
+    content: "₽";
+    margin-left: 4px;
+    position: relative;
+  }
+  
+  .card__price--discount {
+    font-weight: 700;
+    font-size: 19px;
+    color: #414141;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .card__price--discount::before {
+    content: "Со скидкой";
+    font-weight: 400;
+    font-size: 13px;
+    color: #bfbfbf;
+  }
+  
+  .card__price--common {
+    font-weight: 400;
+    font-size: 17px;
+    color: #606060;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+  }
+  
+  .card__price--common::before {
+    content: "Обычная";
+    font-weight: 100;
+    font-size: 15px;
+    color: #bfbfbf;
+  }
+  
+  .card__title {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 100%;
+    color: #918e8e;
+  }
+  
+  .card__title:hover {
+    color: #9e9e9e;
+  }
+  
 
+  
+  .card__add:hover {
+    border: 1px solid #b3afae;
+    background-color: #b3afae;
+    color: #fff;
+  }
 
+  .cards {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    column-gap: 15px;
+}
 
 .lead {
     margin-top: 60px;
