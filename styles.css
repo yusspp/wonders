@@ -4,6 +4,9 @@
     box-sizing: border-box;
     /* outline: 1px solid orange; */
 }
+::-webkit-scrollbar {
+    width: 0;
+  }
 
 .container {
     width: 1040px;
@@ -58,6 +61,13 @@
     background-color:rgba(11, 9, 9, 0.679);
 
 }
+.sm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(11, 9, 9, 0.787);
+
+}
 
 ul {
     list-style: none;
@@ -84,7 +94,7 @@ ul {
 }
 
 .site-menu>li>a:hover {
-    background-color: #02000029;
+    background-color: #6c6b6b1e;
 }
 
 .site-menu>li {
@@ -384,6 +394,32 @@ h2{
     font-family: 'Aboreto';
     font-size: 19px;
     padding-bottom: 90px;
+    padding-top: 50px;
+}
+.text>p{
+    padding-bottom: 10px;
+}
+
+body, html
+{
+	font-size: 16px !important;
+}
+
+.nav__item
+{
+	padding: 15px 25px !important;
+	margin: 2px !important;
+}
+
+.main__content
+{
+	width: 80% !important;
+	margin: 0 auto !important;
+}
+
+.ui-button
+{
+	padding: 10px 25px !important;
 }
 .card {
     width: 300px;
@@ -589,7 +625,10 @@ main {
 
 
 
+.hamburger-menu{
+    z-index: 1;
 
+}
 
 #menu__toggle {
     opacity: 0;
@@ -651,14 +690,17 @@ main {
     content: '';
     top: 8px;
 }
-
+.menu__box::-webkit-scrollbar {
+    width: 0;
+  }
 .menu__box {
+
     display: block;
     position: fixed;
     visibility: hidden;
     top: 0;
     left: -100%;
-
+    overflow:auto;
     width: 300px;
     height: 100%;
 
@@ -667,7 +709,7 @@ main {
 
     list-style: none;
 
-    background-color: #151719;
+    background-color: #161617;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
 
     transition-duration: .25s;
@@ -675,16 +717,13 @@ main {
 
 .menu__item {
     display: block;
-    padding: 12px 24px;
-
+    padding: 10px 24px;
+    overflow: scrolly;
     color: white;
-
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-
     text-decoration: none;
-
     transition-duration: .25s;
 }
 
