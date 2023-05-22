@@ -94,12 +94,22 @@ ul {
 }
 
 .site-menu>li>a:hover {
-    background-color: #6c6b6b1e;
+    background-color: #57575767;
+}
+
+.artemida>li>a:hover{
+    background-color: #2a2a2a86;
 }
 
 .site-menu>li {
     /* width: 250px; */
     text-align: center;
+}
+.mav{
+    padding-top: 120px;
+}
+.stat{
+    padding-top: 100px;
 }
 
 h1 {
@@ -161,6 +171,15 @@ h3 {
     padding-bottom: 50px;
 
 }
+.artem{
+    padding-top: 100px;
+}
+
+.coloss{
+
+    padding-bottom: 100px;
+}
+
 
 
 .sh2 {
